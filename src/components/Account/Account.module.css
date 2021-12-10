@@ -1,0 +1,9 @@
+.wrapper{
+    border: 2px solid black;
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+
+

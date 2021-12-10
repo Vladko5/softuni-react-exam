@@ -1,0 +1,43 @@
+.main{
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+
+    row-gap: 15px;
+    column-gap: 3%;
+    padding: 0 3%;
+}
+
+.main h1{
+    grid-row: 1;
+    grid-column: 1/13;
+    align-self: center;
+    align-self: stretch;
+    justify-self: center;
+}
+
+
+
+.story-wrapper{
+    grid-column: span 6;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 4px;
+    overflow: auto;
+    overflow: auto;
+   
+}
+
+.story-wrapper .story-title{
+    word-break: break-all;
+    grid-column: 1/2;
+    align-self: center;
+    place-self: center;
+    display: inline;
+   
+}
+
+.story-wrapper .story-content{
+    word-break: break-all;
+    grid-column: 2/8;
+}

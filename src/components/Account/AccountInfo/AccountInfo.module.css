@@ -1,0 +1,59 @@
+.main{
+    
+    grid-column: 3 /10;
+    grid-row: span 8;
+    display: grid;
+
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 4%;
+    row-gap: 4%;
+    margin-top: 4%;
+  
+   
+}
+
+.main p{
+    margin-top: 8%;
+}
+
+
+.pets-displayed{
+    color: white;
+    border: 2px solid black;
+    background-image: url(../../../images/Bird.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 4px;
+    
+    grid-column: span 4 ; 
+    
+ 
+}
+
+.pets-displayed button{
+    border-radius: 4px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: #8cb369;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+    border:none;
+}
+
+
+
+    .pets-displayed button:hover{
+        border:2px solid white ;
+        
+    }
+
+    .pets-displayed button:focus{
+        outline: none;
+    } 
+
+
+
+

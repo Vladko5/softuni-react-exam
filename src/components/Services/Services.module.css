@@ -1,0 +1,21 @@
+.service-wrapper{
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    row-gap: 15px;
+    column-gap: 3%;
+    padding: 0 3%;
+}
+
+.service-data{
+    grid-column: span 4;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.service-data img{
+    width: 30%;
+}
+

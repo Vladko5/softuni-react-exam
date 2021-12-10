@@ -1,0 +1,25 @@
+
+.change-story{
+    
+    grid-column: 6/9;
+    grid-row: 5;
+    display: inline;
+}
+
+.change-story button{
+border-radius:4px;
+background-color: #1b4965;
+box-sizing: border-box;
+outline: none;
+color: white;
+border:none;
+}
+
+.change-story button:hover{
+    border:2px solid white ;
+    
+}
+
+.change-story button:focus{
+    outline: none;
+}

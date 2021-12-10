@@ -1,0 +1,105 @@
+.story-form{
+    background-image: url(../../../../images//Hummingbird.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 3/10;
+    grid-row: span 8;
+    border: 2px solid black;
+    padding-top: 3%;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 10% 20% 40% ;
+    row-gap: 4%;
+    column-gap: 3%;
+   
+   
+}
+
+
+.story-form .story-title{
+    display: inline;
+    grid-column: 1/2;
+    align-self: center;
+    font-weight: bolder;
+    color: #ffffff;
+  
+}
+
+.story-form .title-input{
+    display: inline;
+    grid-column: 2/7;
+    grid-row: 1;
+    border-radius: 4px;
+    opacity: 0.6;
+    border:2px solid black ;
+    outline: none;
+    overflow: auto;
+    
+}
+
+.story-form .story-content{
+    display: inline;
+    grid-column: 1/2;
+    grid-row: 2;
+    align-self: center;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+
+.story-form .content-input{
+    display: inline;
+    grid-column: 2/8;
+    resize: none;
+    border-radius: 4px;
+    opacity: 0.6;
+    border: 2px solid black ;
+    outline: none;
+}
+
+
+.preview-story{
+   
+    grid-column: 1/11;
+    grid-row: span 2;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    overflow: auto;
+}
+
+.preview-story h2{
+    grid-column: 4/8;
+    grid-row: 1;
+    align-self: center;
+    color: #ffffff;
+} 
+
+.preview-story p{
+    word-break: break-all;
+    grid-row: 3;
+    grid-column: 1/11;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.preview-story h3{
+    word-break: break-all;
+    grid-row: 2;
+    grid-column: 1/11;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.story-form button{
+    display: inline;
+    grid-column: 8/10;
+    grid-row: 2;
+    border-radius: 5px;
+    height: 40%;
+    width: 50%;
+    align-self: center;
+    background-color: lightgoldenrodyellow;
+    color: lightpink;
+    outline: none;
+}

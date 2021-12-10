@@ -1,0 +1,22 @@
+.main-container{
+    background-color: #8ecae6;
+    overflow: hidden;
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+    
+
+    
+}
+
+
+
+
+

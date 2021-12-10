@@ -1,0 +1,13 @@
+.main{
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+
+.main h1{
+    
+    grid-column: 5/7;
+    grid-row: 1;
+    justify-self: center;
+}

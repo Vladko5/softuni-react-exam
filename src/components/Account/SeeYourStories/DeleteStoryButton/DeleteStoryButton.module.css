@@ -1,0 +1,24 @@
+.delete-story{
+    
+        grid-column: 3/6;
+        grid-row: 5;
+        display: inline;
+    }
+    
+    .delete-story button{
+    border-radius:4px;
+    background-color: #1b4965;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+    border:none;
+    }
+
+    .delete-story button:hover{
+        border:2px solid white ;
+        
+    }
+
+    .delete-story button:focus{
+        outline: none;
+    }
